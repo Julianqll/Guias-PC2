@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/julianquispe/C++Projects/Guias-PC2/p5/main.cpp
+iostream
+-
+obrero.h
+/Users/julianquispe/C++Projects/Guias-PC2/p5/obrero.h
+
+/Users/julianquispe/C++Projects/Guias-PC2/p5/obrero.h
+

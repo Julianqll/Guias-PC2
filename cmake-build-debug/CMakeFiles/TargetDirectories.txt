@@ -1,0 +1,3 @@
+/Users/julianquispe/C++Projects/Guias-PC2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/julianquispe/C++Projects/Guias-PC2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/julianquispe/C++Projects/Guias-PC2/cmake-build-debug/CMakeFiles/Guias_PC2.dir

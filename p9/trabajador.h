@@ -1,5 +1,5 @@
 using namespace std;
-class Obrero
+class Trabajador
 {
 private:
     int codigo;
@@ -7,16 +7,16 @@ private:
     int horasTrabajadas;
     double tarifaHora;
 public:
-    Obrero(int _codigo, string _nombre, int _horasTrabajadas, double _tarifaHora)
+    Trabajador(int _codigo, string _nombre, int _horasTrabajadas, double _tarifaHora)
     {
         codigo = _codigo;
         nombre = _nombre;
         horasTrabajadas = _horasTrabajadas;
         tarifaHora = _tarifaHora;
     }
-    Obrero(){
+    Trabajador(){
     }
-    ~Obrero(){
+    ~Trabajador(){
     }
 
     //Setters
@@ -37,6 +37,7 @@ public:
         tarifaHora = _tarifaHora;
     }
 
+
     //Getters
     int getCodigo()
     {
@@ -55,26 +56,21 @@ public:
         return tarifaHora;
     }
 
+
     //Métodos
     double sueldoBruto()
     {
         return horasTrabajadas * tarifaHora;
     }
 
-    double descuentoAFP()
+    double descuento()
     {
-        return 0.10 * sueldoBruto();
+        return 0.15 * sueldoBruto();
     }
 
-    double descuentoEPS()
-    {
-        return 0.05 - sueldoBruto();
-
-
-    }
     double sueldoNeto()
     {
-        return sueldoBruto() - descuentoAFP() - descuentoEPS();
+        return sueldoBruto() - descuento();
     }
 
 };

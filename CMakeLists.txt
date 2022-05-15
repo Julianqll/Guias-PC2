@@ -3,8 +3,8 @@ project(Guias_PC2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(p5)
+include_directories(guide6/p5)
 
 add_executable(Guias_PC2
-        p5/main.cpp
-        p5/obrero.h p6/video.h p7/empleado.h p8/persona.h p9/trabajador.h)
+        guide6/p5/main.cpp
+        guide6/p5/obrero.h guide6/p6/video.h guide6/p7/empleado.h guide6/p8/persona.h guide6/p9/trabajador.h)

@@ -77,7 +77,6 @@ void efectuarIncrementos()
         cout<<"Ingresar solamente:p1 - p2 - p3!!!";
     }
 }
-[19:19]
 int main(){
 
     do{

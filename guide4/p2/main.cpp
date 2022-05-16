@@ -111,7 +111,3 @@ int main(){
     venta_total=importeP1+importeP2+importeP3;
     cout<<"La venta final:"<< venta_total<<endl;
 }
-0
-COMBO x1[enter] to Combo!
-
-Enviar mensaje a #programando-wbdas

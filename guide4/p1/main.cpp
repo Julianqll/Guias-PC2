@@ -78,7 +78,7 @@ void efectuarIncrementos()
         cout<<"Ingresar solamente:p1 - p2 - p3!!!";
     }
 }
-[19:18]
+
 int main(){
     string producto,respuesta;
     int cantidad;
